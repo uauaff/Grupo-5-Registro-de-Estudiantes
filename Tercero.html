@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="form.js"></script>
+    <link rel="stylesheet" href="pagin1.css">
+    <title>Registro de Estudiantes </title>
+</head>
+
+<body>
+
+
+
+    <header>
+
+        <div class="nav-container">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="secciones.html">Primero </a></li>
+                    <li><a href="Registro-estu.html">Segundo </a></li>
+                    <li><a href="Tercero.html">Tercero</a></li>
+                    <li><a href="Cuarto.html">Cuarto</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
+
+
+
+
+    </header>
+
+
+
+
+    <img src="cuenta.png" width="70" height="70" bord="4" alt="Registro" />
+    <h1>LICEO BONAO </h1>
+
+
+    <h2>Registro De estudiantes Tercero de Bachiller </h2>
+
+    <br>
+
+    <p id="conteoAulas">A: 0 | B: 0 | C: 0</p>
+
+
+
+    </br>
+
+    <div>
+
+        <input type="text" id="idnombre" placeholder="Nombre completo" />
+        <input type="email" id="correo" placeholder="Correo electrónico" />
+        <input type="number" id="edad" placeholder="edad" />
+        <input type="text" id="Aula" placeholder="Aula" />
+        <button onclick="agregarRegistro()">Enviar</button>
+
+    </div>
+
+
+    <h3>Tabla de registro De estudiantes:</h3>
+    <table id="tablaregistro">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Correo electrónico</th>
+                <th>edad</th>
+                <th>Aula</th>
+
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</body>
+
+</html>
